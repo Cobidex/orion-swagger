@@ -202,41 +202,23 @@
   <li><a href="#v1AuthLoginPost"><code><span class="http-method">post</span> /v1/auth/login</code></a></li>
   <li><a href="#v1AuthLogoutPost"><code><span class="http-method">post</span> /v1/auth/logout</code></a></li>
   <li><a href="#v1AuthRegisterPost"><code><span class="http-method">post</span> /v1/auth/register</code></a></li>
-  </ul>
-  <h4><a href="#Default">Default</a></h4>
-  <ul>
-  <li><a href="#contentGet"><code><span class="http-method">get</span> /content</code></a></li>
-  <li><a href="#contentIdDelete"><code><span class="http-method">delete</span> /content/{id}</code></a></li>
-  <li><a href="#contentIdGet"><code><span class="http-method">get</span> /content/{id}</code></a></li>
-  <li><a href="#contentIdPut"><code><span class="http-method">put</span> /content/{id}</code></a></li>
-  <li><a href="#contentPost"><code><span class="http-method">post</span> /content</code></a></li>
-  <li><a href="#invitesGet"><code><span class="http-method">get</span> /invites</code></a></li>
-  <li><a href="#invitesIdDelete"><code><span class="http-method">delete</span> /invites/{id}</code></a></li>
-  <li><a href="#invitesIdGet"><code><span class="http-method">get</span> /invites/{id}</code></a></li>
-  <li><a href="#invitesIdPut"><code><span class="http-method">put</span> /invites/{id}</code></a></li>
-  <li><a href="#invitesPost"><code><span class="http-method">post</span> /invites</code></a></li>
-  <li><a href="#logsGet"><code><span class="http-method">get</span> /logs</code></a></li>
-  <li><a href="#logsIdDelete"><code><span class="http-method">delete</span> /logs/{id}</code></a></li>
-  <li><a href="#logsIdGet"><code><span class="http-method">get</span> /logs/{id}</code></a></li>
-  <li><a href="#logsIdPut"><code><span class="http-method">put</span> /logs/{id}</code></a></li>
-  <li><a href="#logsPost"><code><span class="http-method">post</span> /logs</code></a></li>
-  <li><a href="#notificationsGet"><code><span class="http-method">get</span> /notifications</code></a></li>
-  <li><a href="#notificationsIdDelete"><code><span class="http-method">delete</span> /notifications/{id}</code></a></li>
-  <li><a href="#notificationsIdGet"><code><span class="http-method">get</span> /notifications/{id}</code></a></li>
-  <li><a href="#notificationsIdPut"><code><span class="http-method">put</span> /notifications/{id}</code></a></li>
-  <li><a href="#notificationsPost"><code><span class="http-method">post</span> /notifications</code></a></li>
-  <li><a href="#settingsGet"><code><span class="http-method">get</span> /settings</code></a></li>
-  <li><a href="#settingsIdDelete"><code><span class="http-method">delete</span> /settings/{id}</code></a></li>
-  <li><a href="#settingsIdGet"><code><span class="http-method">get</span> /settings/{id}</code></a></li>
-  <li><a href="#settingsIdPut"><code><span class="http-method">put</span> /settings/{id}</code></a></li>
-  <li><a href="#settingsPost"><code><span class="http-method">post</span> /settings</code></a></li>
   <li><a href="#v1AuthResetPasswordPost"><code><span class="http-method">post</span> /v1/auth/reset-password</code></a></li>
-  <li><a href="#v1OrganizationsIdDelete"><code><span class="http-method">delete</span> /v1/organizations/{id}</code></a></li>
-  <li><a href="#widgetsGet"><code><span class="http-method">get</span> /widgets</code></a></li>
-  <li><a href="#widgetsIdDelete"><code><span class="http-method">delete</span> /widgets/{id}</code></a></li>
-  <li><a href="#widgetsIdGet"><code><span class="http-method">get</span> /widgets/{id}</code></a></li>
-  <li><a href="#widgetsIdPut"><code><span class="http-method">put</span> /widgets/{id}</code></a></li>
-  <li><a href="#widgetsPost"><code><span class="http-method">post</span> /widgets</code></a></li>
+  </ul>
+  <h4><a href="#ContentManagement">ContentManagement</a></h4>
+  <ul>
+  <li><a href="#v1ContentGet"><code><span class="http-method">get</span> /v1/content</code></a></li>
+  <li><a href="#v1ContentIdDelete"><code><span class="http-method">delete</span> /v1/content/{id}</code></a></li>
+  <li><a href="#v1ContentIdGet"><code><span class="http-method">get</span> /v1/content/{id}</code></a></li>
+  <li><a href="#v1ContentIdPut"><code><span class="http-method">put</span> /v1/content/{id}</code></a></li>
+  <li><a href="#v1ContentPost"><code><span class="http-method">post</span> /v1/content</code></a></li>
+  </ul>
+  <h4><a href="#Invitations">Invitations</a></h4>
+  <ul>
+  <li><a href="#v1InvitesGet"><code><span class="http-method">get</span> /v1/invites</code></a></li>
+  <li><a href="#v1InvitesIdDelete"><code><span class="http-method">delete</span> /v1/invites/{id}</code></a></li>
+  <li><a href="#v1InvitesIdGet"><code><span class="http-method">get</span> /v1/invites/{id}</code></a></li>
+  <li><a href="#v1InvitesIdPut"><code><span class="http-method">put</span> /v1/invites/{id}</code></a></li>
+  <li><a href="#v1InvitesPost"><code><span class="http-method">post</span> /v1/invites</code></a></li>
   </ul>
   <h4><a href="#Messaging">Messaging</a></h4>
   <ul>
@@ -246,9 +228,18 @@
   <li><a href="#v1MessagesIdPut"><code><span class="http-method">put</span> /v1/messages/{id}</code></a></li>
   <li><a href="#v1MessagesPost"><code><span class="http-method">post</span> /v1/messages</code></a></li>
   </ul>
+  <h4><a href="#Notifications">Notifications</a></h4>
+  <ul>
+  <li><a href="#v1NotificationsGet"><code><span class="http-method">get</span> /v1/notifications</code></a></li>
+  <li><a href="#v1NotificationsIdDelete"><code><span class="http-method">delete</span> /v1/notifications/{id}</code></a></li>
+  <li><a href="#v1NotificationsIdGet"><code><span class="http-method">get</span> /v1/notifications/{id}</code></a></li>
+  <li><a href="#v1NotificationsIdPut"><code><span class="http-method">put</span> /v1/notifications/{id}</code></a></li>
+  <li><a href="#v1NotificationsPost"><code><span class="http-method">post</span> /v1/notifications</code></a></li>
+  </ul>
   <h4><a href="#Organisations">Organisations</a></h4>
   <ul>
   <li><a href="#v1OrganizationsGet"><code><span class="http-method">get</span> /v1/organizations</code></a></li>
+  <li><a href="#v1OrganizationsIdDelete"><code><span class="http-method">delete</span> /v1/organizations/{id}</code></a></li>
   <li><a href="#v1OrganizationsIdGet"><code><span class="http-method">get</span> /v1/organizations/{id}</code></a></li>
   <li><a href="#v1OrganizationsIdPut"><code><span class="http-method">put</span> /v1/organizations/{id}</code></a></li>
   <li><a href="#v1OrganizationsPost"><code><span class="http-method">post</span> /v1/organizations</code></a></li>
@@ -260,6 +251,22 @@
   <li><a href="#v1PaymentsIdGet"><code><span class="http-method">get</span> /v1/payments/{id}</code></a></li>
   <li><a href="#v1PaymentsIdPut"><code><span class="http-method">put</span> /v1/payments/{id}</code></a></li>
   <li><a href="#v1PaymentsPost"><code><span class="http-method">post</span> /v1/payments</code></a></li>
+  </ul>
+  <h4><a href="#RecommendationsActivityLog">RecommendationsActivityLog</a></h4>
+  <ul>
+  <li><a href="#v1LogsGet"><code><span class="http-method">get</span> /v1/logs</code></a></li>
+  <li><a href="#v1LogsIdDelete"><code><span class="http-method">delete</span> /v1/logs/{id}</code></a></li>
+  <li><a href="#v1LogsIdGet"><code><span class="http-method">get</span> /v1/logs/{id}</code></a></li>
+  <li><a href="#v1LogsIdPut"><code><span class="http-method">put</span> /v1/logs/{id}</code></a></li>
+  <li><a href="#v1LogsPost"><code><span class="http-method">post</span> /v1/logs</code></a></li>
+  </ul>
+  <h4><a href="#Settings">Settings</a></h4>
+  <ul>
+  <li><a href="#v1SettingsGet"><code><span class="http-method">get</span> /v1/settings</code></a></li>
+  <li><a href="#v1SettingsIdDelete"><code><span class="http-method">delete</span> /v1/settings/{id}</code></a></li>
+  <li><a href="#v1SettingsIdGet"><code><span class="http-method">get</span> /v1/settings/{id}</code></a></li>
+  <li><a href="#v1SettingsIdPut"><code><span class="http-method">put</span> /v1/settings/{id}</code></a></li>
+  <li><a href="#v1SettingsPost"><code><span class="http-method">post</span> /v1/settings</code></a></li>
   </ul>
   <h4><a href="#Users">Users</a></h4>
   <ul>
@@ -474,12 +481,47 @@
         <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <h1><a name="Default">Default</a></h1>
-  <div class="method"><a name="contentGet"></a>
+  <div class="method"><a name="v1AuthResetPasswordPost"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /content</code></pre></div>
-    <div class="method-summary">List all content (<span class="nickname">contentGet</span>)</div>
+    <pre class="post"><code class="huge"><span class="http-method">post</span> /v1/auth/reset-password</code></pre></div>
+    <div class="method-summary">Reset password (<span class="nickname">v1AuthResetPasswordPost</span>)</div>
+    <div class="method-notes"></div>
+
+
+    <h3 class="field-label">Consumes</h3>
+    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Request body</h3>
+    <div class="field-items">
+      <div class="param">body <a href="#auth_resetpassword_body">auth_resetpassword_body</a> (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
+                </div>  <!-- field-items -->
+
+
+
+
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Password reset successfully
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <h1><a name="ContentManagement">ContentManagement</a></h1>
+  <div class="method"><a name="v1ContentGet"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/content</code></pre></div>
+    <div class="method-summary">Fetch Content (<span class="nickname">v1ContentGet</span>)</div>
     <div class="method-notes"></div>
 
 
@@ -523,15 +565,27 @@
 
     <h3 class="field-label">Responses</h3>
     <h4 class="field-label">200</h4>
-    A list of content
+    Fetch Content Succesful
         
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">404</h4>
+    Not Found
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Fetch Content Failed
+        <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <div class="method"><a name="contentIdDelete"></a>
+  <div class="method"><a name="v1ContentIdDelete"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /content/{id}</code></pre></div>
-    <div class="method-summary">Delete content by ID (<span class="nickname">contentIdDelete</span>)</div>
+    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /v1/content/{id}</code></pre></div>
+    <div class="method-summary">Delete content by ID (<span class="nickname">v1ContentIdDelete</span>)</div>
     <div class="method-notes"></div>
 
     <h3 class="field-label">Path parameters</h3>
@@ -554,13 +608,22 @@
     <h4 class="field-label">204</h4>
     Content deleted successfully
         <a href="#"></a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Content Creation Failed
+        <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <div class="method"><a name="contentIdGet"></a>
+  <div class="method"><a name="v1ContentIdGet"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /content/{id}</code></pre></div>
-    <div class="method-summary">Get content by ID (<span class="nickname">contentIdGet</span>)</div>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/content/{id}</code></pre></div>
+    <div class="method-summary">Get content by ID (<span class="nickname">v1ContentIdGet</span>)</div>
     <div class="method-notes"></div>
 
     <h3 class="field-label">Path parameters</h3>
@@ -602,15 +665,27 @@
 
     <h3 class="field-label">Responses</h3>
     <h4 class="field-label">200</h4>
-    A content object
+    Fetch Content Succesful
         <a href="#Content">Content</a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">404</h4>
+    Not Found
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Fetch Content Failed
+        <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <div class="method"><a name="contentIdPut"></a>
+  <div class="method"><a name="v1ContentIdPut"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="put"><code class="huge"><span class="http-method">put</span> /content/{id}</code></pre></div>
-    <div class="method-summary">Update content by ID (<span class="nickname">contentIdPut</span>)</div>
+    <pre class="put"><code class="huge"><span class="http-method">put</span> /v1/content/{id}</code></pre></div>
+    <div class="method-summary">Update content by ID (<span class="nickname">v1ContentIdPut</span>)</div>
     <div class="method-notes"></div>
 
     <h3 class="field-label">Path parameters</h3>
@@ -635,22 +710,55 @@
 
 
 
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      <a href="#Content">Content</a>
+      
+    </div>
 
     <!--Todo: process Response Object and its headers, schema, examples -->
 
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>{
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "title" : "title",
+  "body" : "body",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+}</code></pre>
 
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
 
     <h3 class="field-label">Responses</h3>
     <h4 class="field-label">200</h4>
     Content updated successfully
+        <a href="#Content">Content</a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessible Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Content Creation Failed
         <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <div class="method"><a name="contentPost"></a>
+  <div class="method"><a name="v1ContentPost"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="post"><code class="huge"><span class="http-method">post</span> /content</code></pre></div>
-    <div class="method-summary">Create content (<span class="nickname">contentPost</span>)</div>
+    <pre class="post"><code class="huge"><span class="http-method">post</span> /v1/content</code></pre></div>
+    <div class="method-summary">Create content (<span class="nickname">v1ContentPost</span>)</div>
     <div class="method-notes"></div>
 
 
@@ -670,22 +778,63 @@
 
 
 
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      array[<a href="#Content">Content</a>]
+      
+    </div>
 
     <!--Todo: process Response Object and its headers, schema, examples -->
 
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>[ {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "title" : "title",
+  "body" : "body",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+}, {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "title" : "title",
+  "body" : "body",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+} ]</code></pre>
 
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
 
     <h3 class="field-label">Responses</h3>
     <h4 class="field-label">201</h4>
     Content created successfully
+        
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessible Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Content Creation Failed
         <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <div class="method"><a name="invitesGet"></a>
+  <h1><a name="Invitations">Invitations</a></h1>
+  <div class="method"><a name="v1InvitesGet"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /invites</code></pre></div>
-    <div class="method-summary">List all invites (<span class="nickname">invitesGet</span>)</div>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/invites</code></pre></div>
+    <div class="method-summary">Fetch all invites (<span class="nickname">v1InvitesGet</span>)</div>
     <div class="method-notes"></div>
 
 
@@ -731,15 +880,24 @@
 
     <h3 class="field-label">Responses</h3>
     <h4 class="field-label">200</h4>
-    A list of invites
+    Fetch Invites Succesful
         
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Fetch Content Failed
+        <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <div class="method"><a name="invitesIdDelete"></a>
+  <div class="method"><a name="v1InvitesIdDelete"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /invites/{id}</code></pre></div>
-    <div class="method-summary">Delete an invite by ID (<span class="nickname">invitesIdDelete</span>)</div>
+    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /v1/invites/{id}</code></pre></div>
+    <div class="method-summary">Delete an invite by ID (<span class="nickname">v1InvitesIdDelete</span>)</div>
     <div class="method-notes"></div>
 
     <h3 class="field-label">Path parameters</h3>
@@ -762,13 +920,25 @@
     <h4 class="field-label">204</h4>
     Invite deleted successfully
         <a href="#"></a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">404</h4>
+    Not Found
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Delete Invite Failed
+        <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <div class="method"><a name="invitesIdGet"></a>
+  <div class="method"><a name="v1InvitesIdGet"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /invites/{id}</code></pre></div>
-    <div class="method-summary">Get an invite by ID (<span class="nickname">invitesIdGet</span>)</div>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/invites/{id}</code></pre></div>
+    <div class="method-summary">Get an invite by ID (<span class="nickname">v1InvitesIdGet</span>)</div>
     <div class="method-notes"></div>
 
     <h3 class="field-label">Path parameters</h3>
@@ -811,869 +981,54 @@
 
     <h3 class="field-label">Responses</h3>
     <h4 class="field-label">200</h4>
-    An invite object
+    Fetch Invite Succesful
         <a href="#Invite">Invite</a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="invitesIdPut"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="put"><code class="huge"><span class="http-method">put</span> /invites/{id}</code></pre></div>
-    <div class="method-summary">Update an invite by ID (<span class="nickname">invitesIdPut</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#Invite">Invite</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    Invite updated successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="invitesPost"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="post"><code class="huge"><span class="http-method">post</span> /invites</code></pre></div>
-    <div class="method-summary">Create an invite (<span class="nickname">invitesPost</span>)</div>
-    <div class="method-notes"></div>
-
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#Invite">Invite</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">201</h4>
-    Invite created successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="logsGet"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /logs</code></pre></div>
-    <div class="method-summary">List all logs (<span class="nickname">logsGet</span>)</div>
-    <div class="method-notes"></div>
-
-
-
-
-
-
-
-    <h3 class="field-label">Return type</h3>
-    <div class="return-type">
-      array[<a href="#Log">Log</a>]
-      
-    </div>
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-    <h3 class="field-label">Example data</h3>
-    <div class="example-data-content-type">Content-Type: application/json</div>
-    <pre class="example"><code>[ {
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "action" : "action",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91"
-}, {
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "action" : "action",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91"
-} ]</code></pre>
-
-    <h3 class="field-label">Produces</h3>
-    This API call produces the following media types according to the <span class="header">Accept</span> request header;
-    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    A list of logs
-        
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="logsIdDelete"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /logs/{id}</code></pre></div>
-    <div class="method-summary">Delete a log by ID (<span class="nickname">logsIdDelete</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">204</h4>
-    Log deleted successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="logsIdGet"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /logs/{id}</code></pre></div>
-    <div class="method-summary">Get a log by ID (<span class="nickname">logsIdGet</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-
-
-
-
-
-    <h3 class="field-label">Return type</h3>
-    <div class="return-type">
-      <a href="#Log">Log</a>
-      
-    </div>
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-    <h3 class="field-label">Example data</h3>
-    <div class="example-data-content-type">Content-Type: application/json</div>
-    <pre class="example"><code>{
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "action" : "action",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91"
-}</code></pre>
-
-    <h3 class="field-label">Produces</h3>
-    This API call produces the following media types according to the <span class="header">Accept</span> request header;
-    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    A log object
-        <a href="#Log">Log</a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="logsIdPut"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="put"><code class="huge"><span class="http-method">put</span> /logs/{id}</code></pre></div>
-    <div class="method-summary">Update a log by ID (<span class="nickname">logsIdPut</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#Log">Log</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    Log updated successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="logsPost"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="post"><code class="huge"><span class="http-method">post</span> /logs</code></pre></div>
-    <div class="method-summary">Create a log (<span class="nickname">logsPost</span>)</div>
-    <div class="method-notes"></div>
-
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#Log">Log</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">201</h4>
-    Log created successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="notificationsGet"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /notifications</code></pre></div>
-    <div class="method-summary">List all notifications (<span class="nickname">notificationsGet</span>)</div>
-    <div class="method-notes"></div>
-
-
-
-
-
-
-
-    <h3 class="field-label">Return type</h3>
-    <div class="return-type">
-      array[<a href="#Notification">Notification</a>]
-      
-    </div>
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-    <h3 class="field-label">Example data</h3>
-    <div class="example-data-content-type">Content-Type: application/json</div>
-    <pre class="example"><code>[ {
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "message" : "message",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "status" : "status",
-  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
-}, {
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "message" : "message",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "status" : "status",
-  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
-} ]</code></pre>
-
-    <h3 class="field-label">Produces</h3>
-    This API call produces the following media types according to the <span class="header">Accept</span> request header;
-    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    A list of notifications
-        
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="notificationsIdDelete"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /notifications/{id}</code></pre></div>
-    <div class="method-summary">Delete a notification by ID (<span class="nickname">notificationsIdDelete</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">204</h4>
-    Notification deleted successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="notificationsIdGet"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /notifications/{id}</code></pre></div>
-    <div class="method-summary">Get a notification by ID (<span class="nickname">notificationsIdGet</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-
-
-
-
-
-    <h3 class="field-label">Return type</h3>
-    <div class="return-type">
-      <a href="#Notification">Notification</a>
-      
-    </div>
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-    <h3 class="field-label">Example data</h3>
-    <div class="example-data-content-type">Content-Type: application/json</div>
-    <pre class="example"><code>{
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "message" : "message",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "status" : "status",
-  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
-}</code></pre>
-
-    <h3 class="field-label">Produces</h3>
-    This API call produces the following media types according to the <span class="header">Accept</span> request header;
-    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    A notification object
-        <a href="#Notification">Notification</a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="notificationsIdPut"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="put"><code class="huge"><span class="http-method">put</span> /notifications/{id}</code></pre></div>
-    <div class="method-summary">Update a notification by ID (<span class="nickname">notificationsIdPut</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#Notification">Notification</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    Notification updated successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="notificationsPost"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="post"><code class="huge"><span class="http-method">post</span> /notifications</code></pre></div>
-    <div class="method-summary">Create a notification (<span class="nickname">notificationsPost</span>)</div>
-    <div class="method-notes"></div>
-
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#Notification">Notification</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">201</h4>
-    Notification created successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="settingsGet"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /settings</code></pre></div>
-    <div class="method-summary">List all settings (<span class="nickname">settingsGet</span>)</div>
-    <div class="method-notes"></div>
-
-
-
-
-
-
-
-    <h3 class="field-label">Return type</h3>
-    <div class="return-type">
-      array[<a href="#Setting">Setting</a>]
-      
-    </div>
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-    <h3 class="field-label">Example data</h3>
-    <div class="example-data-content-type">Content-Type: application/json</div>
-    <pre class="example"><code>[ {
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "value" : "value",
-  "key" : "key",
-  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
-}, {
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "value" : "value",
-  "key" : "key",
-  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
-} ]</code></pre>
-
-    <h3 class="field-label">Produces</h3>
-    This API call produces the following media types according to the <span class="header">Accept</span> request header;
-    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    A list of settings
-        
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="settingsIdDelete"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /settings/{id}</code></pre></div>
-    <div class="method-summary">Delete a setting by ID (<span class="nickname">settingsIdDelete</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">204</h4>
-    Setting deleted successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="settingsIdGet"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /settings/{id}</code></pre></div>
-    <div class="method-summary">Get a setting by ID (<span class="nickname">settingsIdGet</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-
-
-
-
-
-    <h3 class="field-label">Return type</h3>
-    <div class="return-type">
-      <a href="#Setting">Setting</a>
-      
-    </div>
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-    <h3 class="field-label">Example data</h3>
-    <div class="example-data-content-type">Content-Type: application/json</div>
-    <pre class="example"><code>{
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "value" : "value",
-  "key" : "key",
-  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
-}</code></pre>
-
-    <h3 class="field-label">Produces</h3>
-    This API call produces the following media types according to the <span class="header">Accept</span> request header;
-    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    A setting object
-        <a href="#Setting">Setting</a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="settingsIdPut"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="put"><code class="huge"><span class="http-method">put</span> /settings/{id}</code></pre></div>
-    <div class="method-summary">Update a setting by ID (<span class="nickname">settingsIdPut</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#Setting">Setting</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    Setting updated successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="settingsPost"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="post"><code class="huge"><span class="http-method">post</span> /settings</code></pre></div>
-    <div class="method-summary">Create a setting (<span class="nickname">settingsPost</span>)</div>
-    <div class="method-notes"></div>
-
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#Setting">Setting</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">201</h4>
-    Setting created successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="v1AuthResetPasswordPost"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="post"><code class="huge"><span class="http-method">post</span> /v1/auth/reset-password</code></pre></div>
-    <div class="method-summary">Reset password (<span class="nickname">v1AuthResetPasswordPost</span>)</div>
-    <div class="method-notes"></div>
-
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#auth_resetpassword_body">auth_resetpassword_body</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    Password reset successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="v1OrganizationsIdDelete"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /v1/organizations/{id}</code></pre></div>
-    <div class="method-summary">Delete an organization by ID (<span class="nickname">v1OrganizationsIdDelete</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">204</h4>
-    Organization deleted successfully
+    <h4 class="field-label">400</h4>
+    Bad Request
         <a href="#"></a>
     <h4 class="field-label">401</h4>
     Unauthorised Access
         <a href="#"></a>
+    <h4 class="field-label">404</h4>
+    Not Found
+        <a href="#"></a>
     <h4 class="field-label">500</h4>
-    Failed to delete Organisation
+    Fetch Invite Failed
         <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <div class="method"><a name="widgetsGet"></a>
+  <div class="method"><a name="v1InvitesIdPut"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /widgets</code></pre></div>
-    <div class="method-summary">List all widgets (<span class="nickname">widgetsGet</span>)</div>
+    <pre class="put"><code class="huge"><span class="http-method">put</span> /v1/invites/{id}</code></pre></div>
+    <div class="method-summary">Update an invite by ID (<span class="nickname">v1InvitesIdPut</span>)</div>
     <div class="method-notes"></div>
 
-
-
-
-
-
-
-    <h3 class="field-label">Return type</h3>
-    <div class="return-type">
-      array[<a href="#Widget">Widget</a>]
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
       
-    </div>
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
 
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-    <h3 class="field-label">Example data</h3>
-    <div class="example-data-content-type">Content-Type: application/json</div>
-    <pre class="example"><code>[ {
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "name" : "name",
-  "description" : "description",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
-}, {
-  "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "name" : "name",
-  "description" : "description",
-  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
-} ]</code></pre>
-
-    <h3 class="field-label">Produces</h3>
-    This API call produces the following media types according to the <span class="header">Accept</span> request header;
-    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <h3 class="field-label">Consumes</h3>
+    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
     <ul>
       <li><code>application/json</code></li>
     </ul>
 
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    A list of widgets
-        
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="widgetsIdDelete"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /widgets/{id}</code></pre></div>
-    <div class="method-summary">Delete a widget by ID (<span class="nickname">widgetsIdDelete</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
+    <h3 class="field-label">Request body</h3>
     <div class="field-items">
-      <div class="param">id (required)</div>
+      <div class="param">body <a href="#Invite">Invite</a> (required)</div>
       
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">204</h4>
-    Widget deleted successfully
-        <a href="#"></a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="widgetsIdGet"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="get"><code class="huge"><span class="http-method">get</span> /widgets/{id}</code></pre></div>
-    <div class="method-summary">Get a widget by ID (<span class="nickname">widgetsIdGet</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-
+            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
+                </div>  <!-- field-items -->
 
 
 
 
     <h3 class="field-label">Return type</h3>
     <div class="return-type">
-      <a href="#Widget">Widget</a>
+      <a href="#Invite">Invite</a>
       
     </div>
 
@@ -1683,10 +1038,11 @@
     <div class="example-data-content-type">Content-Type: application/json</div>
     <pre class="example"><code>{
   "createdAt" : "2000-01-23T04:56:07.000+00:00",
-  "name" : "name",
-  "description" : "description",
+  "inviteeEmail" : "",
+  "inviterId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
   "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
-  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "token" : "token",
+  "status" : "status",
   "updatedAt" : "2000-01-23T04:56:07.000+00:00"
 }</code></pre>
 
@@ -1699,55 +1055,27 @@
 
     <h3 class="field-label">Responses</h3>
     <h4 class="field-label">200</h4>
-    A widget object
-        <a href="#Widget">Widget</a>
-  </div> <!-- method -->
-  <hr/>
-  <div class="method"><a name="widgetsIdPut"></a>
-    <div class="method-path">
-    <a class="up" href="#__Methods">Up</a>
-    <pre class="put"><code class="huge"><span class="http-method">put</span> /widgets/{id}</code></pre></div>
-    <div class="method-summary">Update a widget by ID (<span class="nickname">widgetsIdPut</span>)</div>
-    <div class="method-notes"></div>
-
-    <h3 class="field-label">Path parameters</h3>
-    <div class="field-items">
-      <div class="param">id (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
-
-    <h3 class="field-label">Consumes</h3>
-    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
-    <ul>
-      <li><code>application/json</code></li>
-    </ul>
-
-    <h3 class="field-label">Request body</h3>
-    <div class="field-items">
-      <div class="param">body <a href="#Widget">Widget</a> (required)</div>
-      
-            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
-                </div>  <!-- field-items -->
-
-
-
-
-
-    <!--Todo: process Response Object and its headers, schema, examples -->
-
-
-
-    <h3 class="field-label">Responses</h3>
-    <h4 class="field-label">200</h4>
-    Widget updated successfully
+    Invite updated successfully
+        <a href="#Invite">Invite</a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessible Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Send Invite Failed
         <a href="#"></a>
   </div> <!-- method -->
   <hr/>
-  <div class="method"><a name="widgetsPost"></a>
+  <div class="method"><a name="v1InvitesPost"></a>
     <div class="method-path">
     <a class="up" href="#__Methods">Up</a>
-    <pre class="post"><code class="huge"><span class="http-method">post</span> /widgets</code></pre></div>
-    <div class="method-summary">Create a widget (<span class="nickname">widgetsPost</span>)</div>
+    <pre class="post"><code class="huge"><span class="http-method">post</span> /v1/invites</code></pre></div>
+    <div class="method-summary">Send an Invite (<span class="nickname">v1InvitesPost</span>)</div>
     <div class="method-notes"></div>
 
 
@@ -1759,7 +1087,7 @@
 
     <h3 class="field-label">Request body</h3>
     <div class="field-items">
-      <div class="param">body <a href="#Widget">Widget</a> (required)</div>
+      <div class="param">body <a href="#Invite">Invite</a> (required)</div>
       
             <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
                 </div>  <!-- field-items -->
@@ -1774,7 +1102,19 @@
 
     <h3 class="field-label">Responses</h3>
     <h4 class="field-label">201</h4>
-    Widget created successfully
+    Invite sent successfully
+        <a href="#"></a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessible Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Send Invite Failed
         <a href="#"></a>
   </div> <!-- method -->
   <hr/>
@@ -1938,6 +1278,9 @@
     <h4 class="field-label">401</h4>
     Unauthorised Access
         <a href="#"></a>
+    <h4 class="field-label">404</h4>
+    Not Found
+        <a href="#"></a>
     <h4 class="field-label">422</h4>
     Unprocessible Content
         <a href="#"></a>
@@ -2067,6 +1410,313 @@
         <a href="#"></a>
   </div> <!-- method -->
   <hr/>
+  <h1><a name="Notifications">Notifications</a></h1>
+  <div class="method"><a name="v1NotificationsGet"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/notifications</code></pre></div>
+    <div class="method-summary">List all notifications (<span class="nickname">v1NotificationsGet</span>)</div>
+    <div class="method-notes"></div>
+
+
+
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      array[<a href="#Notification">Notification</a>]
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>[ {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "message" : "message",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "status" : "status",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+}, {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "message" : "message",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "status" : "status",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+} ]</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    A list of notifications
+        
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Fetch Notification Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1NotificationsIdDelete"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /v1/notifications/{id}</code></pre></div>
+    <div class="method-summary">Delete a notification by ID (<span class="nickname">v1NotificationsIdDelete</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+
+
+
+
+
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">204</h4>
+    Notification deleted successfully
+        <a href="#"></a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Delete Notification Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1NotificationsIdGet"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/notifications/{id}</code></pre></div>
+    <div class="method-summary">Get a notification by ID (<span class="nickname">v1NotificationsIdGet</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      <a href="#Notification">Notification</a>
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>{
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "message" : "message",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "status" : "status",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+}</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Fetch Notification Succesfully
+        <a href="#Notification">Notification</a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Fetch Notification Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1NotificationsIdPut"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="put"><code class="huge"><span class="http-method">put</span> /v1/notifications/{id}</code></pre></div>
+    <div class="method-summary">Update a notification by ID (<span class="nickname">v1NotificationsIdPut</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+    <h3 class="field-label">Consumes</h3>
+    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Request body</h3>
+    <div class="field-items">
+      <div class="param">body <a href="#Notification">Notification</a> (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
+                </div>  <!-- field-items -->
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      <a href="#Notification">Notification</a>
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>{
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "message" : "message",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "status" : "status",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+}</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Notification updated successfully
+        <a href="#Notification">Notification</a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessible Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Update Notification Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1NotificationsPost"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="post"><code class="huge"><span class="http-method">post</span> /v1/notifications</code></pre></div>
+    <div class="method-summary">Send a notification (<span class="nickname">v1NotificationsPost</span>)</div>
+    <div class="method-notes"></div>
+
+
+    <h3 class="field-label">Consumes</h3>
+    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Request body</h3>
+    <div class="field-items">
+      <div class="param">body <a href="#Notification">Notification</a> (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
+                </div>  <!-- field-items -->
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      array[<a href="#Notification">Notification</a>]
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>[ {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "message" : "message",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "status" : "status",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+}, {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "message" : "message",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "status" : "status",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+} ]</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">201</h4>
+    Notification Sent Succesfully
+        
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessible Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Send Notification Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
   <h1><a name="Organisations">Organisations</a></h1>
   <div class="method"><a name="v1OrganizationsGet"></a>
     <div class="method-path">
@@ -2128,6 +1778,41 @@
         <a href="#"></a>
     <h4 class="field-label">500</h4>
     Fetch Organisations Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1OrganizationsIdDelete"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /v1/organizations/{id}</code></pre></div>
+    <div class="method-summary">Delete an organization by ID (<span class="nickname">v1OrganizationsIdDelete</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+
+
+
+
+
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">204</h4>
+    Organization deleted successfully
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorised Access
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Failed to delete Organisation
         <a href="#"></a>
   </div> <!-- method -->
   <hr/>
@@ -2621,6 +2306,552 @@
         <a href="#"></a>
   </div> <!-- method -->
   <hr/>
+  <h1><a name="RecommendationsActivityLog">RecommendationsActivityLog</a></h1>
+  <div class="method"><a name="v1LogsGet"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/logs</code></pre></div>
+    <div class="method-summary">Fetch Logs (<span class="nickname">v1LogsGet</span>)</div>
+    <div class="method-notes"></div>
+
+
+
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      array[<a href="#Log">Log</a>]
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>[ {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "action" : "action",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91"
+}, {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "action" : "action",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91"
+} ]</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Fetch Logs Succesful
+        
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Fetch Logs Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1LogsIdDelete"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /v1/logs/{id}</code></pre></div>
+    <div class="method-summary">Delete a log by ID (<span class="nickname">v1LogsIdDelete</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+
+
+
+
+
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">204</h4>
+    Log deleted successfully
+        <a href="#"></a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">404</h4>
+    Not Found
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Delete Log Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1LogsIdGet"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/logs/{id}</code></pre></div>
+    <div class="method-summary">Get a log by ID (<span class="nickname">v1LogsIdGet</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      <a href="#Log">Log</a>
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>{
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "action" : "action",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91"
+}</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Fetch Log Succesful
+        <a href="#Log">Log</a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">404</h4>
+    Not Found
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Fetch Log Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1LogsIdPut"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="put"><code class="huge"><span class="http-method">put</span> /v1/logs/{id}</code></pre></div>
+    <div class="method-summary">Update a log by ID (<span class="nickname">v1LogsIdPut</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+    <h3 class="field-label">Consumes</h3>
+    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Request body</h3>
+    <div class="field-items">
+      <div class="param">body <a href="#Log">Log</a> (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
+                </div>  <!-- field-items -->
+
+
+
+
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Log updated successfully
+        <a href="#"></a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessable Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Update Log Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1LogsPost"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="post"><code class="huge"><span class="http-method">post</span> /v1/logs</code></pre></div>
+    <div class="method-summary">Create a log (<span class="nickname">v1LogsPost</span>)</div>
+    <div class="method-notes"></div>
+
+
+    <h3 class="field-label">Consumes</h3>
+    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Request body</h3>
+    <div class="field-items">
+      <div class="param">body <a href="#Log">Log</a> (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
+                </div>  <!-- field-items -->
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      array[<a href="#Log">Log</a>]
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>[ {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "action" : "action",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91"
+}, {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "action" : "action",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91"
+} ]</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">201</h4>
+    Log created successfully
+        
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessable Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Create Log Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <h1><a name="Settings">Settings</a></h1>
+  <div class="method"><a name="v1SettingsGet"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/settings</code></pre></div>
+    <div class="method-summary">Get All settings (<span class="nickname">v1SettingsGet</span>)</div>
+    <div class="method-notes"></div>
+
+
+
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      array[<a href="#Setting">Setting</a>]
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>[ {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "value" : "value",
+  "key" : "key",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+}, {
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "value" : "value",
+  "key" : "key",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+} ]</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Fetch Settings Succesful
+        
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Fetch Settings Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1SettingsIdDelete"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="delete"><code class="huge"><span class="http-method">delete</span> /v1/settings/{id}</code></pre></div>
+    <div class="method-summary">Delete a setting by ID (<span class="nickname">v1SettingsIdDelete</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+
+
+
+
+
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">204</h4>
+    Setting deleted successfully
+        <a href="#"></a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">404</h4>
+    Not Found
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Delete Setting Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1SettingsIdGet"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /v1/settings/{id}</code></pre></div>
+    <div class="method-summary">Get a setting by ID (<span class="nickname">v1SettingsIdGet</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      <a href="#Setting">Setting</a>
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>{
+  "createdAt" : "2000-01-23T04:56:07.000+00:00",
+  "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "userId" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
+  "value" : "value",
+  "key" : "key",
+  "updatedAt" : "2000-01-23T04:56:07.000+00:00"
+}</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Create Setting Successful
+        <a href="#Setting">Setting</a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">404</h4>
+    Not Found
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Fetch Setting Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1SettingsIdPut"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="put"><code class="huge"><span class="http-method">put</span> /v1/settings/{id}</code></pre></div>
+    <div class="method-summary">Update a setting by ID (<span class="nickname">v1SettingsIdPut</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">id (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash;  format: uuid</div>    </div>  <!-- field-items -->
+
+    <h3 class="field-label">Consumes</h3>
+    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Request body</h3>
+    <div class="field-items">
+      <div class="param">body <a href="#Setting">Setting</a> (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
+                </div>  <!-- field-items -->
+
+
+
+
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    Setting updated successfully
+        <a href="#"></a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessable Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Update Setting Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="v1SettingsPost"></a>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="post"><code class="huge"><span class="http-method">post</span> /v1/settings</code></pre></div>
+    <div class="method-summary">Create a setting (<span class="nickname">v1SettingsPost</span>)</div>
+    <div class="method-notes"></div>
+
+
+    <h3 class="field-label">Consumes</h3>
+    This API call consumes the following media types via the <span class="header">Content-Type</span> request header:
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Request body</h3>
+    <div class="field-items">
+      <div class="param">body <a href="#Setting">Setting</a> (required)</div>
+      
+            <div class="param-desc"><span class="param-type">Body Parameter</span> &mdash;  </div>
+                </div>  <!-- field-items -->
+
+
+
+
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">201</h4>
+    Setting created successfully
+        <a href="#"></a>
+    <h4 class="field-label">400</h4>
+    Bad Request
+        <a href="#"></a>
+    <h4 class="field-label">401</h4>
+    Unauthorized Access
+        <a href="#"></a>
+    <h4 class="field-label">422</h4>
+    Unprocessable Content
+        <a href="#"></a>
+    <h4 class="field-label">500</h4>
+    Create Setting Failed
+        <a href="#"></a>
+  </div> <!-- method -->
+  <hr/>
   <h1><a name="Users">Users</a></h1>
   <div class="method"><a name="v1UsersGet"></a>
     <div class="method-path">
@@ -2885,7 +3116,6 @@
     <li><a href="#Payment"><code>Payment</code></a></li>
     <li><a href="#Setting"><code>Setting</code></a></li>
     <li><a href="#User"><code>User</code></a></li>
-    <li><a href="#Widget"><code>Widget</code></a></li>
     <li><a href="#auth_forgotpassword_body"><code>auth_forgotpassword_body</code></a></li>
     <li><a href="#auth_login_body"><code>auth_login_body</code></a></li>
     <li><a href="#auth_register_body"><code>auth_register_body</code></a></li>
@@ -3004,18 +3234,6 @@
 <div class="param">phone (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
 <div class="param">role (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
 <div class="param">organizationId (optional)</div><div class="param-desc"><span class="param-type"><a href="#UUID">UUID</a></span>  format: uuid</div>
-<div class="param">createdAt (optional)</div><div class="param-desc"><span class="param-type"><a href="#DateTime">Date</a></span>  format: date-time</div>
-<div class="param">updatedAt (optional)</div><div class="param-desc"><span class="param-type"><a href="#DateTime">Date</a></span>  format: date-time</div>
-    </div>  <!-- field-items -->
-  </div>
-  <div class="model">
-    <h3><a name="Widget"><code>Widget</code></a> <a class="up" href="#__Models">Up</a></h3>
-    
-    <div class="field-items">
-      <div class="param">id (optional)</div><div class="param-desc"><span class="param-type"><a href="#UUID">UUID</a></span>  format: uuid</div>
-<div class="param">userId (optional)</div><div class="param-desc"><span class="param-type"><a href="#UUID">UUID</a></span>  format: uuid</div>
-<div class="param">name (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
-<div class="param">description (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
 <div class="param">createdAt (optional)</div><div class="param-desc"><span class="param-type"><a href="#DateTime">Date</a></span>  format: date-time</div>
 <div class="param">updatedAt (optional)</div><div class="param-desc"><span class="param-type"><a href="#DateTime">Date</a></span>  format: date-time</div>
     </div>  <!-- field-items -->
